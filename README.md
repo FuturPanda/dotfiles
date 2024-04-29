@@ -11,7 +11,13 @@
     sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $FuturPanda
     ```
   - Install xcode.
-- Execute init.sh : 
+- Execute init.sh :
+    ```shell
+    chmod +x .config/init.sh && .config/init.sh
+    ```
+
+
+
 
 # Dotfiles
 My dotfiles are managed by [Chezmoi](https://www.chezmoi.io), the dotfiles manager : 
