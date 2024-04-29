@@ -1,0 +1,22 @@
+#Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+export FZF_CTRL_T_OPTS="--preview 'bat -n --color=always -line-range :500 {}'"
+export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
+
+
+#Eza (better ls)
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+
+
+# thefuck alias
+
+eval $(thefuck --alias)
+eval $(thefuck --alias fk)
+
+alias v="nvim"
+
+# IntelliJ
+alias rebuild="./gradlew clean build -x test"
+
+#Zoxide (better cd)
+eval "$(zoxide init zsh)"
