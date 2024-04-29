@@ -8,7 +8,13 @@
 - ### Run chezmoi
   - ## How to Run : 
     ```shell
+    PATH=$PATH:~/bin
     sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $FuturPanda
+    ```
+
+    if not working :
+    ```shell
+    chezmoi git pull https://github.com/FuturPanda/dotfiles.git
     ```
   - Install xcode.
 - Execute init.sh :
@@ -17,7 +23,8 @@
     ```
 
 
-
+# TODO :
+- [ ] Create a Script running on the first launch of chezmoi 
 
 # Dotfiles
 My dotfiles are managed by [Chezmoi](https://www.chezmoi.io), the dotfiles manager : 
