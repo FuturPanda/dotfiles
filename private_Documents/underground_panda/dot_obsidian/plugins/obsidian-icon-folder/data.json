@@ -1,0 +1,37 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiBookMarked",
+      "LiComputer",
+      "LiNotebook",
+      "LiPenTool",
+      "LiUser"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": true,
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "00-09 System": "LiSettings",
+  "10-19 Life Os": "LiUser",
+  "20-29 Media": "LiPenTool",
+  "30-39 Univ-city": "LiNotebook",
+  "40-49 Dev-id": "LiComputer",
+  "50-59 Zettlekasten": "LiBookMarked"
+}
