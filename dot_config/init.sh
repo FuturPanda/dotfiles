@@ -3,7 +3,10 @@
 # This script install my setup. See Readme for apps that aren't installable by shell. 
 #
 # Install Homebrew via curl
+# Faire un prompt pour récupérer le nom de l'user et déterminer le path dynamiquement. 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew/shellenv)"') >> /Users/user/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Tap all dependencies. 
 brew install starship rectangle iina
